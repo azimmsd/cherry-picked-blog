@@ -8,3 +8,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
   description = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'

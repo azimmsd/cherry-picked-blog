@@ -5,4 +5,4 @@ title = 'Why Cherrypicked'
 +++
 
 This blog is a self-portrait.  
-Cherry-picked notes from life, thoughts, tech, philosophy, literature, politics, and tech.
+Cherry-picked notes from life, thoughts, tech, philosophy and literature.

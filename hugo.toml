@@ -2,6 +2,7 @@ baseURL = "https://cherrypicked.me/"
 languageCode = "en-us"
 title = "CherryPicked"
 theme = "PaperMod"
+favicon = "favicon.svg"
 
 [params]
   ShowReadingTime = true

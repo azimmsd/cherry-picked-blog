@@ -1,5 +1,5 @@
 +++
-title = "Curriculum Vitae"
+title = "CV"
 date = 2025-12-25T00:00:00Z
 draft = false
 layout = "single"
@@ -8,10 +8,7 @@ ShowToc = false
 
 # Azim Masoudinejad
 
-**Email:** <azimmasoudi@gmail.com>
-**LinkedIn:** [linkedin.com/in/ehsanmsd](https://linkedin.com/in/ehsanmsd)  
-**Github:** [github.com/azimmsd](https://github.com/azimmsd)  
-**Location:** Netherlands
+[**Email**](azimmasoudi@gmail.com), [**LinkedIn**](https://linkedin.com/in/ehsanmsd),[Github]**(https://github.com/azimmsd)
 
 Site Reliability Engineer with 6+ years of experience automating, scaling, and securing large-scale infrastructures. Skilled in Kubernetes, Terraform, CI/CD, and cloud platforms (GCP, AWS, Azure), with a track record of zero-downtime migrations, cost optimization, and observability improvements.
 

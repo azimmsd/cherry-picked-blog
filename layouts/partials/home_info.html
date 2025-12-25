@@ -1,0 +1,28 @@
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+    {{- if .imageUrl -}}
+    {{- $img := "" }}
+    {{- if not (urls.Parse .imageUrl).IsAbs }}
+        {{- $img = resources.Get .imageUrl }}
+    {{- end }}
+    <div class="profile-image-container" style="text-align: center; margin-bottom: 1.5rem;">
+        {{- if $img }}
+        <img src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}"
+             style="border-radius: 50%; width: {{ .imageWidth | default 150 }}px; height: {{ .imageHeight | default 150 }}px; object-fit: cover;" />
+        {{- else }}
+        <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
+             style="border-radius: 50%; width: {{ .imageWidth | default 150 }}px; height: {{ .imageHeight | default 150 }}px; object-fit: cover;" />
+        {{- end }}
+    </div>
+    {{- end }}
+    <header class="entry-header">
+        <h1>{{ .Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ .Content | markdownify }}
+    </div>
+    <footer class="entry-footer">
+        {{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+    </footer>
+</article>
+{{- end -}}

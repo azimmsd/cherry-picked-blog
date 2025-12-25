@@ -32,6 +32,10 @@ enableEmoji = true
 [params.homeInfoParams]
   title = "CherryPicked 🍒"
   content = "Cherry-picked is my self-portrait. Notes from life, tech, philosophy, literature, and politics."
+  imageUrl = "profile.jpg"  # path to your profile image in the static folder (without leading slash)
+  imageWidth = 150
+  imageHeight = 150
+  imageTitle = "Profile Image"
 
 [[params.socialIcons]]
   name = "linkedin"

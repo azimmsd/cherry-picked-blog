@@ -5,13 +5,13 @@
     {{- if not (urls.Parse .imageUrl).IsAbs }}
         {{- $img = resources.Get .imageUrl }}
     {{- end }}
-    <div class="profile-image-container" style="text-align: center; margin-bottom: 1.5rem;">
+    <div class="profile-image-container" style="display: flex; justify-content: center; margin-bottom: 1.5rem;">
         {{- if $img }}
         <img src="{{ $img.Permalink }}" alt="{{ .imageTitle | default "profile image" }}"
-             style="border-radius: 50%; width: {{ .imageWidth | default 150 }}px; height: {{ .imageHeight | default 150 }}px; object-fit: cover;" />
+             style="border-radius: 50%; width: {{ .imageWidth | default 150 }}px; height: {{ .imageHeight | default 150 }}px; object-fit: cover; display: block;" />
         {{- else }}
         <img src="{{ .imageUrl | absURL }}" alt="{{ .imageTitle | default "profile image" }}"
-             style="border-radius: 50%; width: {{ .imageWidth | default 150 }}px; height: {{ .imageHeight | default 150 }}px; object-fit: cover;" />
+             style="border-radius: 50%; width: {{ .imageWidth | default 150 }}px; height: {{ .imageHeight | default 150 }}px; object-fit: cover; display: block;" />
         {{- end }}
     </div>
     {{- end }}

@@ -1,0 +1,15 @@
+# Persian translations
+[translations]
+other = "ترجمه‌ها"
+
+[read_more]
+other = "ادامه مطلب"
+
+[toc]
+other = "فهرست مطالب"
+
+[readingTime]
+other = "{{ .Count }} دقیقه"
+
+[words]
+other = "{{ .Count }} کلمه"

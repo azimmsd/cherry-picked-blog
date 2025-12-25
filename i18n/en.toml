@@ -1,0 +1,15 @@
+# English translations
+[translations]
+other = "Translations"
+
+[read_more]
+other = "Read More"
+
+[toc]
+other = "Table of Contents"
+
+[readingTime]
+other = "{{ .Count }} min read"
+
+[words]
+other = "{{ .Count }} words"

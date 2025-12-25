@@ -8,7 +8,7 @@ ShowToc = false
 
 # Azim Masoudinejad
 
-[**Email**](azimmasoudi@gmail.com), [**LinkedIn**](https://linkedin.com/in/ehsanmsd),[Github]**(https://github.com/azimmsd)
+[**Email**](azimmasoudi@gmail.com), [**LinkedIn**](https://linkedin.com/in/ehsanmsd),[**Github**](https://github.com/azimmsd)
 
 Site Reliability Engineer with 6+ years of experience automating, scaling, and securing large-scale infrastructures. Skilled in Kubernetes, Terraform, CI/CD, and cloud platforms (GCP, AWS, Azure), with a track record of zero-downtime migrations, cost optimization, and observability improvements.
 

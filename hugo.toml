@@ -14,6 +14,7 @@ defaultContentLanguage = "en"
     weight = 1
     title = "CherryPicked"
     [languages.en.params]
+      mainSections = ["posts"]
       [languages.en.params.homeInfoParams]
         title = "CherryPicked"
         content = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
@@ -36,6 +37,7 @@ defaultContentLanguage = "en"
     weight = 2
     title = "CherryPicked"
     [languages.fa.params]
+      mainSections = ["posts"]
       [languages.fa.params.homeInfoParams]
         title = "CherryPicked"
         content = "یادداشت‌های برگزیده از زندگی، فلسفه، سینما، ادبیات، سیاست و فناوری"

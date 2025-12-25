@@ -46,8 +46,8 @@ favicon = "favicon.svg"
   url = "https://github.com/azimmsd"
 
 [[params.socialIcons]]
-  name = "rss"
-  url = "/posts/index.xml"
+  name = "cv"
+  url = "/cv/"
 
 [caches]
   [caches.images]

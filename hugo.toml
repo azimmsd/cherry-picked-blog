@@ -73,6 +73,6 @@ defaultContentLanguage = "en"
 
 [[params.socialIcons]]
   name = "cv"
-  url = "/cv/"
+  url = "/en/cv/"
 
 [caches]

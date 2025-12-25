@@ -3,6 +3,7 @@ title = "Curriculum Vitae"
 date = 2025-12-25T00:00:00Z
 draft = false
 layout = "single"
+ShowToc = false
 +++
 
 # Azim Masoudinejad

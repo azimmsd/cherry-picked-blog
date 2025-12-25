@@ -2,7 +2,6 @@ baseURL = "https://cherrypicked.me/"
 languageCode = "en-us"
 title = "CherryPicked"
 theme = "PaperMod"
-favicon = "favicon.svg"
 
 [params]
   ShowReadingTime = true
@@ -29,10 +28,10 @@ favicon = "favicon.svg"
     url = "/cv/"
     weight = 30
 
-[params.profileMode]
-  enabled = true
+
+[params.homeInfoParams]
   title = "CherryPicked"
-  subtitle = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
+  content = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
 
 [[params.socialIcons]]
   name = "linkedin"
@@ -45,7 +44,3 @@ favicon = "favicon.svg"
 [[params.socialIcons]]
   name = "cv"
   url = "/cv/"
-
-[caches]
-  [caches.images]
-    dir = ':cacheDir/images'

@@ -6,7 +6,7 @@ defaultContentLanguage = "en"
 enableEmoji = true
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS"]
 
 [languages]
   [languages.en]

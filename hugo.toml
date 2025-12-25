@@ -33,9 +33,6 @@ favicon = "favicon.svg"
   enabled = true
   title = "CherryPicked"
   subtitle = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
-  buttons = [
-    { name = "Posts", url = "/posts/" }
-  ]
 
 [[params.socialIcons]]
   name = "linkedin"

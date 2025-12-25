@@ -4,6 +4,7 @@ date = 2025-12-25T00:00:00Z
 draft = false
 layout = "single"
 ShowToc = false
+translationKey = "cv"
 +++
 
 # Azim Masoudinejad
@@ -86,5 +87,5 @@ Site Reliability Engineer with 6+ years of experience automating, scaling, and s
 
 ## Education
 
-**Bachelor's Degree** | Computer-Hardware  
+**Bachelor's Degree** | Computer-Hardware
 K.N Toosi University of Technology | Tehran, Iran | 2013-2018

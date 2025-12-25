@@ -1,0 +1,38 @@
+{{- if eq .Site.Language.Lang "fa" }}
+<style>
+  /* Persian-specific styling with RTL support */
+  body {
+    font-family: "Vazirmatn", "Tahoma", sans-serif;
+  }
+
+  html {
+    direction: rtl;
+    text-align: right;
+  }
+
+  /* Keep code blocks LTR */
+  code, pre {
+    direction: ltr;
+    text-align: left;
+  }
+
+  /* Adjust post meta elements for RTL */
+  .post-meta {
+    flex-direction: row-reverse;
+  }
+
+  /* Fix breadcrumbs for RTL */
+  .breadcrumbs {
+    direction: rtl;
+  }
+
+  /* Ensure English content within Persian pages stays LTR */
+  .ltr {
+    direction: ltr;
+    text-align: left;
+  }
+</style>
+
+<!-- Include Vazirmatn font from CDN -->
+<link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+{{- end }}

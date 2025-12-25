@@ -3,23 +3,46 @@ languageCode = "en-us"
 title = "CherryPicked 🍒"
 theme = "PaperMod"
 enableEmoji = true
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
 
 [outputs]
   home = ["HTML", "RSS"]
 
-[menu]
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 25
-  [[menu.main]]
-    name = "CV"
-    url = "/cv/"
-    weight = 30
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    [[languages.en.menu.main]]
+      name = "Posts"
+      url = "/posts/"
+      weight = 10
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/tags/"
+      weight = 25
+    [[languages.en.menu.main]]
+      name = "CV"
+      url = "/cv/"
+      weight = 30
+
+  [languages.fa]
+    languageName = "فارسی"
+    weight = 2
+    contentDir = "content/fa"
+    [[languages.fa.menu.main]]
+      name = "نوشته‌ها"
+      url = "/fa/posts/"
+      weight = 10
+    [[languages.fa.menu.main]]
+      name = "برچسب‌ها"
+      url = "/fa/tags/"
+      weight = 25
+    [[languages.fa.menu.main]]
+      name = "رزومه"
+      url = "/fa/cv/"
+      weight = 30
 
 [params]
   ShowReadingTime = true
@@ -32,7 +55,7 @@ enableEmoji = true
 [params.homeInfoParams]
   title = "CherryPicked 🍒"
   content = "Cherry-picked is my self-portrait. Notes from life, tech, philosophy, literature, and politics."
-  imageUrl = "profile.jpg"  # path to your profile image in the static folder (without leading slash)
+  imageUrl = "myprofile.png"  # path to your profile image in the static folder (without leading slash)
   imageWidth = 150
   imageHeight = 150
   imageTitle = "Profile Image"

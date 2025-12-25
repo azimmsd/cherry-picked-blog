@@ -49,13 +49,6 @@ favicon = "favicon.svg"
   name = "rss"
   url = "/posts/index.xml"
 
-[menu]
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 25
-
 [caches]
   [caches.images]
     dir = ':cacheDir/images'

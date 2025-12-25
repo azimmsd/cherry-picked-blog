@@ -14,17 +14,14 @@ enableEmoji = true
     weight = 1
     [languages.en.menus]
       [[languages.en.menus.main]]
-        identifier = "posts"
         name = "Posts"
         url = "/posts/"
         weight = 10
       [[languages.en.menus.main]]
-        identifier = "tags"
         name = "Tags"
         url = "/tags/"
         weight = 25
       [[languages.en.menus.main]]
-        identifier = "cv"
         name = "CV"
         url = "/cv/"
         weight = 30
@@ -34,17 +31,14 @@ enableEmoji = true
     weight = 2
     [languages.fa.menus]
       [[languages.fa.menus.main]]
-        identifier = "posts"
         name = "مقالات"
         url = "/fa/posts/"
         weight = 10
       [[languages.fa.menus.main]]
-        identifier = "tags"
         name = "برچسب‌ها"
         url = "/fa/tags/"
         weight = 25
       [[languages.fa.menus.main]]
-        identifier = "cv"
         name = "سوابق کاری"
         url = "/fa/cv/"
         weight = 30

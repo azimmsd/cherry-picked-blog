@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on CherryPicked</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://cherrypicked.me/posts/</link>
     <description>Recent content in Posts on CherryPicked</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 12:33:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why Cherrypicked</title>
-      <link>http://localhost:1313/posts/why-cherrypicked/</link>
-      <pubDate>Sun, 14 Dec 2025 12:33:18 +0100</pubDate>
-      <guid>http://localhost:1313/posts/why-cherrypicked/</guid>
-      <description>&lt;h2 id=&#34;cherrypicked&#34;&gt;CherryPicked&lt;/h2&gt;
-&lt;p&gt;This blog is a self-portrait.&lt;br&gt;
-Cherry-picked notes from life, thoughts, tech, philosophy, literature, politics, and tech.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="https://cherrypicked.me/posts/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

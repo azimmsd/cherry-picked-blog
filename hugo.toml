@@ -14,6 +14,13 @@ defaultContentLanguageInSubdir = false
     languageName = "English"
     weight = 1
     contentDir = "content/en"
+    [languages.en.params.homeInfoParams]
+      title = "CherryPicked 🍒"
+      content = "CherryPicked is my self-portrait. Notes from life, tech, philosophy, literature, and politics."
+      imageUrl = "myprofile.png"
+      imageWidth = 150
+      imageHeight = 150
+      imageTitle = "Profile Image"
     [[languages.en.menu.main]]
       name = "Posts"
       url = "/posts/"
@@ -31,6 +38,13 @@ defaultContentLanguageInSubdir = false
     languageName = "فارسی"
     weight = 2
     contentDir = "content/fa"
+    [languages.fa.params.homeInfoParams]
+      title = "🍒 آلبالوچین"
+      content = "آلبالوچین یک خودنگاره است. من اینجا برداشت‌هام درباره‌ی زندگی، تکنولوژی، ادبیات، فلسفه و سیاست رو نگاره می‌کنم."
+      imageUrl = "myprofile.png"
+      imageWidth = 150
+      imageHeight = 150
+      imageTitle = "تصویر پروفایل"
     [[languages.fa.menu.main]]
       name = "نوشته‌ها"
       url = "/fa/posts/"
@@ -52,13 +66,6 @@ defaultContentLanguageInSubdir = false
   mainSections = ["posts"]
   defaultTheme = "auto"
 
-[params.homeInfoParams]
-  title = "CherryPicked 🍒"
-  content = "Cherry-picked is my self-portrait. Notes from life, tech, philosophy, literature, and politics."
-  imageUrl = "myprofile.png"  # path to your profile image in the static folder (without leading slash)
-  imageWidth = 150
-  imageHeight = 150
-  imageTitle = "Profile Image"
 
 [[params.socialIcons]]
   name = "linkedin"

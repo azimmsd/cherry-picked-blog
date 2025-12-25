@@ -6,8 +6,17 @@
     <description>Recent content in 🍒 CherryPicked 🍒 on CherryPicked 🍒</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Dec 2025 19:53:31 +0100</lastBuildDate>
     <atom:link href="https://cherrypicked.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why CherryPicked?</title>
+      <link>https://cherrypicked.me/posts/why-cherrypicked/</link>
+      <pubDate>Thu, 25 Dec 2025 19:53:31 +0100</pubDate>
+      <guid>https://cherrypicked.me/posts/why-cherrypicked/</guid>
+      <description>&lt;h2 id=&#34;cherrypicked-&#34;&gt;CherryPicked 🍒&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m a cherry-picker called Ehsan. In official documents my name is Azim, you can call me however you want.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a Site Reliability Engineer, which means I accelerate, facilitate, and automate the entire software development process. I only mention this because we do cherry-picking in software engineering. What does that mean? It means we can take a change that we like, developed somewhere else, even by someone else, and pick it up and place it in the middle of changes and growth that we&amp;rsquo;re creating ourselves. This has always been a scary thing for me because you have to get to know another person and their way of thinking, know yourself and your work, think critically about the situation, and have the courage to combine the two. But well, I&amp;rsquo;m also a brave person who loves my fears and credits my growth to them. I&amp;rsquo;m also not particularly averse to making mistakes.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>CV</title>
       <link>https://cherrypicked.me/cv/</link>

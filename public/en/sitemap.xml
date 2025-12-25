@@ -15,6 +15,19 @@
                 href="https://cherrypicked.me/"
                 />
   </url><url>
+    <loc>https://cherrypicked.me/tags/philosophy/</loc>
+    <lastmod>2025-12-25T19:53:31+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://cherrypicked.me/fa/tags/philosophy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cherrypicked.me/tags/philosophy/"
+                />
+  </url><url>
     <loc>https://cherrypicked.me/posts/</loc>
     <lastmod>2025-12-25T19:53:31+01:00</lastmod>
     <xhtml:link
@@ -26,6 +39,45 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cherrypicked.me/posts/"
+                />
+  </url><url>
+    <loc>https://cherrypicked.me/tags/</loc>
+    <lastmod>2025-12-25T19:53:31+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://cherrypicked.me/fa/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cherrypicked.me/tags/"
+                />
+  </url><url>
+    <loc>https://cherrypicked.me/tags/tech/</loc>
+    <lastmod>2025-12-25T19:53:31+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://cherrypicked.me/fa/tags/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cherrypicked.me/tags/tech/"
+                />
+  </url><url>
+    <loc>https://cherrypicked.me/posts/why-cherrypicked/</loc>
+    <lastmod>2025-12-25T19:53:31+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fa"
+                href="https://cherrypicked.me/fa/posts/why-cherrypicked/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://cherrypicked.me/posts/why-cherrypicked/"
                 />
   </url><url>
     <loc>https://cherrypicked.me/cv/</loc>
@@ -51,18 +103,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://cherrypicked.me/categories/"
-                />
-  </url><url>
-    <loc>https://cherrypicked.me/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="https://cherrypicked.me/fa/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://cherrypicked.me/tags/"
                 />
   </url>
 </urlset>

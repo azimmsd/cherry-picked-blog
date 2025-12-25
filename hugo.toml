@@ -1,6 +1,6 @@
 baseURL = "https://cherrypicked.me/"
 languageCode = "en-us"
-title = "CherryPicked"
+title = "CherryPicked 🍒"
 theme = "PaperMod"
 enableEmoji = true
 
@@ -30,8 +30,8 @@ enableEmoji = true
   defaultTheme = "auto"
 
 [params.homeInfoParams]
-  title = "CherryPicked"
-  content = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
+  title = "CherryPicked 🍒"
+  content = "Cherry-picked is my self-portrait. Notes from life, tech, philosophy, literature, and politics."
 
 [[params.socialIcons]]
   name = "linkedin"

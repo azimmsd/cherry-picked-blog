@@ -29,7 +29,7 @@ defaultContentLanguage = "en"
         weight = 25
       [[languages.en.menus.main]]
         name = "CV"
-        url = "/cv/"
+        url = "/en/cv/"
         weight = 30
 
   [languages.fa]
@@ -52,7 +52,7 @@ defaultContentLanguage = "en"
         weight = 25
       [[languages.fa.menus.main]]
         name = "سوابق کاری"
-        url = "/cv/"
+        url = "/en/cv/"
         weight = 30
 
 [params]

@@ -16,17 +16,17 @@ enableEmoji = true
       [[languages.en.menus.main]]
         identifier = "posts"
         name = "Posts"
-        url = "/posts/"
+        pageRef = "/en/posts"
         weight = 10
       [[languages.en.menus.main]]
         identifier = "tags"
         name = "Tags"
-        url = "/tags/"
+        pageRef = "/en/tags"
         weight = 25
       [[languages.en.menus.main]]
         identifier = "cv"
         name = "CV"
-        url = "/cv/"
+        pageRef = "/en/cv"
         weight = 30
 
   [languages.fa]
@@ -35,18 +35,18 @@ enableEmoji = true
     [languages.fa.menus]
       [[languages.fa.menus.main]]
         identifier = "posts"
-        name = "پست‌ها"
-        url = "/fa/posts/"
+        name = "مقالات"
+        pageRef = "/fa/posts"
         weight = 10
       [[languages.fa.menus.main]]
         identifier = "tags"
-        name = "تگ‌ها"
-        url = "/fa/tags/"
+        name = "برچسب‌ها"
+        pageRef = "/fa/tags"
         weight = 25
       [[languages.fa.menus.main]]
         identifier = "cv"
-        name = "رزومه"
-        url = "/fa/cv/"
+        name = "سوابق کاری"
+        pageRef = "/fa/cv"
         weight = 30
 
 [params]

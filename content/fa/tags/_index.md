@@ -1,5 +1,4 @@
 +++
-title = "برچسب‌ها"
+title = "Tags"
 layout = "tags"
-translationKey = "tags"
 +++

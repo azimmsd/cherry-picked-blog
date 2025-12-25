@@ -52,7 +52,7 @@ defaultContentLanguage = "en"
         weight = 25
       [[languages.fa.menus.main]]
         name = "سوابق کاری"
-        url = "/cv/"
+        url = "https://cherrypicked.me/cv/"
         weight = 30
 
 [params]

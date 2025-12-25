@@ -9,7 +9,6 @@ favicon = "favicon.svg"
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
   description = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
-  profileMode = true
 
 [menu]
   [[menu.main]]

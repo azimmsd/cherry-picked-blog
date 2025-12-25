@@ -8,7 +8,7 @@ ShowToc = false
 
 # Azim Masoudinejad
 
-**Email:** azimmasoudi@gmail.com  
+**Email:** <azimmasoudi@gmail.com>
 **LinkedIn:** [linkedin.com/in/ehsanmsd](https://linkedin.com/in/ehsanmsd)  
 **Github:** [github.com/azimmsd](https://github.com/azimmsd)  
 **Location:** Netherlands

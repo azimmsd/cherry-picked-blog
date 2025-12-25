@@ -4,8 +4,6 @@ title = "CherryPicked"
 theme = "PaperMod"
 enableEmoji = true
 
-[outputs]
-  home = ["HTML", "RSS"]
 
 [menu]
   [[menu.main]]
@@ -28,7 +26,6 @@ enableEmoji = true
   ShowToc = true
   mainSections = ["posts"]
   defaultTheme = "auto"
-  description = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
 
 [params.homeInfoParams]
   title = "CherryPicked"

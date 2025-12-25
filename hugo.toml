@@ -2,32 +2,59 @@ baseURL = "https://cherrypicked.me/"
 languageCode = "en-us"
 title = "CherryPicked"
 theme = "PaperMod"
+defaultContentLanguage = "en"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts/"
+        weight = 10
+      [[languages.en.menus.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 25
+      [[languages.en.menus.main]]
+        identifier = "cv"
+        name = "CV"
+        url = "/cv/"
+        weight = 30
+
+  [languages.fa]
+    languageName = "فارسی"
+    weight = 2
+    [languages.fa.menus]
+      [[languages.fa.menus.main]]
+        identifier = "posts"
+        name = "پست‌ها"
+        url = "/fa/posts/"
+        weight = 10
+      [[languages.fa.menus.main]]
+        identifier = "tags"
+        name = "تگ‌ها"
+        url = "/fa/tags/"
+        weight = 25
+      [[languages.fa.menus.main]]
+        identifier = "cv"
+        name = "رزومه"
+        url = "/fa/cv/"
+        weight = 30
 
 [params]
   ShowReadingTime = true
   ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  ShowToc = true
   defaultTheme = "auto"
   description = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
-
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 25
-
-  [[menu.main]]
-    identifier = "cv"
-    name = "CV"
-    url = "/cv/"
-    weight = 30
-
 
 [params.homeInfoParams]
   title = "CherryPicked"

@@ -21,10 +21,6 @@ enableEmoji = true
         name = "Tags"
         url = "/tags/"
         weight = 25
-      [[languages.en.menus.main]]
-        name = "CV"
-        url = "/cv/"
-        weight = 30
 
   [languages.fa]
     languageName = "فارسی"
@@ -38,10 +34,6 @@ enableEmoji = true
         name = "برچسب‌ها"
         url = "/fa/tags/"
         weight = 25
-      [[languages.fa.menus.main]]
-        name = "سوابق کاری"
-        url = "/fa/cv/"
-        weight = 30
 
 [params]
   ShowReadingTime = true

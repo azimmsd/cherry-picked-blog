@@ -2,38 +2,24 @@ baseURL = "https://cherrypicked.me/"
 languageCode = "en-us"
 title = "CherryPicked"
 theme = "PaperMod"
-defaultContentLanguage = "en"
 enableEmoji = true
 
 [outputs]
   home = ["HTML", "RSS"]
 
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-    [languages.en.menus]
-      [[languages.en.menus.main]]
-        name = "Posts"
-        url = "/posts/"
-        weight = 10
-      [[languages.en.menus.main]]
-        name = "Tags"
-        url = "/tags/"
-        weight = 25
-
-  [languages.fa]
-    languageName = "فارسی"
-    weight = 2
-    [languages.fa.menus]
-      [[languages.fa.menus.main]]
-        name = "مقالات"
-        url = "/fa/posts/"
-        weight = 10
-      [[languages.fa.menus.main]]
-        name = "برچسب‌ها"
-        url = "/fa/tags/"
-        weight = 25
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 25
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 30
 
 [params]
   ShowReadingTime = true

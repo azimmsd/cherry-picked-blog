@@ -11,9 +11,7 @@ ShowToc = false
 **Email:** azimmasoudi@gmail.com  
 **LinkedIn:** [linkedin.com/in/ehsanmsd](https://linkedin.com/in/ehsanmsd)  
 **Github:** [github.com/azimmsd](https://github.com/azimmsd)  
-**Location:** Diemen, Netherlands
-
-## Site Reliability Engineer
+**Location:** Netherlands
 
 Site Reliability Engineer with 6+ years of experience automating, scaling, and securing large-scale infrastructures. Skilled in Kubernetes, Terraform, CI/CD, and cloud platforms (GCP, AWS, Azure), with a track record of zero-downtime migrations, cost optimization, and observability improvements.
 

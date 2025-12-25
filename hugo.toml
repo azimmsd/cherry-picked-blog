@@ -18,6 +18,12 @@ favicon = "favicon.svg"
     weight = 10
 
   [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 25
+
+  [[menu.main]]
     identifier = "cv"
     name = "CV"
     url = "/cv/"
@@ -38,6 +44,17 @@ favicon = "favicon.svg"
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/azimmsd"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/posts/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 25
 
 [caches]
   [caches.images]

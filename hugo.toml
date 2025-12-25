@@ -54,6 +54,7 @@ enableEmoji = true
   ShowCodeCopyButtons = true
   ShowShareButtons = true
   ShowToc = true
+  mainSections = ["posts"]
   defaultTheme = "auto"
   description = "Cherry-picked notes from life, philosophy, cinema, literature, politics, and tech"
 

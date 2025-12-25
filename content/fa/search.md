@@ -1,7 +1,6 @@
 ---
 title: "جستجو"
 layout: "search"
-description: "جستجو مقالات"
+url: "/fa/search/"
 summary: "search"
-placeholder: "جستجو مقالات..."
 ---

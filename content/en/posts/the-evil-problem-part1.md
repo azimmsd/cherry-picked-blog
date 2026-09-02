@@ -1,6 +1,6 @@
 +++
 date = '2026-08-25T18:02:54+02:00'
-draft = true
+draft = false
 title = 'The Evil Problem Part1'
 tags = ['philosophy']
 +++

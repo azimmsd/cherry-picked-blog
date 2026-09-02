@@ -1,7 +1,8 @@
 +++
 date = '2026-08-25T18:02:54+02:00'
 draft = false
-title = 'The Evil Problem Part1'
+title = 'رنج در برابر خدایان'
+translationKey = 'The-Evil-Problem-Part1'
 tags = ['philosophy']
 +++
 

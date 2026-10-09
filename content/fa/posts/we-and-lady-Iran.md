@@ -1,7 +1,7 @@
 +++
 date = '2026-10-09T12:10:24+02:00'
 draft = false
-title = 'We and Lady Iran'
+title = 'ما و ایران بانو'
 translationKey = 'we-and-lady-iran'
 tags = ['philosophy', 'politics']
 +++

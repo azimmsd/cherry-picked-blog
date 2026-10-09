@@ -1,6 +1,6 @@
 +++
 date = '2026-10-09T12:10:24+02:00'
-draft = true
+draft = false
 title = 'We and Lady Iran'
 translationKey = 'we-and-lady-iran'
 tags = ['philosophy', 'politics']
